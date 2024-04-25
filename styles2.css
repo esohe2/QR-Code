@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.outfit-regular{
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container1{
+    background: hsl(0, 0%, 100%);
+    width: calc(1440px / 6);
+    padding: 16px;
+    border: 1px solid  hsl(212, 45%, 89%);
+    border-radius: 16px;
+    box-shadow: 2px 2px 4px hsl(219, 61%, 81%);
+
+}
+
+.imgg{
+    border-radius: 12px;
+    width: 100%;
+}
+
+.text1{
+    text-align:center;
+    margin: 12px 0px 12px 0px;
+    color: hsl(218, 44%, 22%);
+    font-size: 16px;
+}
+
+.text2{
+    text-align: center;
+    color:hsl(220, 15%, 55%) ;
+    font-size: 12px;
+}
+
+
